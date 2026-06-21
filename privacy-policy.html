@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>PepaScan Privacy Policy</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  body { font-family: -apple-system, Segoe UI, Roboto, Arial, sans-serif; max-width: 760px; margin: 0 auto; padding: 32px 20px 80px; color: #1a1a1a; line-height: 1.6; }
+  h1 { color: #00695C; margin-bottom: 4px; }
+  .updated { color: #555; font-size: 0.9em; margin-bottom: 32px; }
+  h2 { color: #009688; border-bottom: 2px solid #e0f2f1; padding-bottom: 6px; margin-top: 40px; }
+  a { color: #00695C; }
+  .contact-box { background: #e0f2f1; border-radius: 8px; padding: 16px 20px; margin-top: 16px; }
+</style>
+</head>
+<body>
+
+<h1>PepaScan Privacy Policy</h1>
+<p class="updated">Last updated: June 21, 2026</p>
+
+<p>PepaScan ("we", "us", "our") is developed by TarTech Services. This policy explains what information PepaScan accesses, how it's used, and what happens to it. We've written this in plain language rather than dense legal text wherever possible.</p>
+
+<h2>What PepaScan does</h2>
+<p>PepaScan lets you scan paper documents into PDF files using your phone's camera, and extracts text from those scans so you can search and copy it later.</p>
+
+<h2>Information we access</h2>
+<p><strong>Document photos:</strong> When you scan a document, PepaScan uses Google Play Services' Document Scanner to capture or import (from your gallery) page images. PepaScan does not request camera permission directly — Google Play Services handles capture in a secure system component. These images are used solely to build the PDF you save.</p>
+
+<p><strong>Extracted text:</strong> PepaScan uses Google's ML Kit to recognize text within your scanned pages. This recognition happens entirely on your device. No image or extracted text is sent to PepaScan's servers, because PepaScan does not operate any servers — there is nowhere for it to send data to.</p>
+
+<p><strong>Document names:</strong> Any name you give a scan (e.g. "ZOU Attachment Report") is stored locally on your device alongside the scan.</p>
+
+<h2>What we don't do</h2>
+<ul>
+  <li>We do not require you to create an account or sign in.</li>
+  <li>We do not collect your name, email address, phone number, or location.</li>
+  <li>We do not access your contacts, messages, or any data outside this app's own files.</li>
+  <li>We do not sell, rent, or share your documents or their content with anyone.</li>
+</ul>
+
+<h2>Where your data lives</h2>
+<p>All scanned PDFs and extracted text are stored in PepaScan's private storage area on your device, which other apps cannot access. Deleting a scan inside PepaScan permanently deletes that file from your device. Uninstalling PepaScan removes all of its locally stored data.</p>
+
+<h2>Third-party components</h2>
+<p>PepaScan relies on Google Play Services (specifically ML Kit's Document Scanner and Text Recognition) to function. These components run on your device under Google's own privacy practices. You can review Google's policy at <a href="https://policies.google.com/privacy" target="_blank">policies.google.com/privacy</a>.</p>
+
+<h2>Children's privacy</h2>
+<p>PepaScan is not directed at children and we do not knowingly collect information from children.</p>
+
+<h2>Changes to this policy</h2>
+<p>As PepaScan adds features, this policy will be updated to reflect them — for example, if we introduce optional cloud backup or in-app purchases in the future, those sections will be added here with a new "Last updated" date before they go live. We encourage you to check back periodically.</p>
+
+<h2>Contact us</h2>
+<div class="contact-box">
+  <p>Questions about this policy or how PepaScan handles information? Reach us at:<br>
+  <strong>tariegore@gmail.com</strong></p>
+</div>
+
+<!--
+  DEVELOPER NOTE (not shown to users): update this document when adding —
+  1. Crash reporting (Firebase Crashlytics) — add a "Diagnostic data" section.
+  2. Cloud backup (Google Drive) — add a "Backup" section disclosing the OAuth
+     scope requested and that PepaScan never sees the file contents itself.
+  3. Paynow/EcoCash payments — add a "Payments" section disclosing what
+     transaction data is shared with Paynow as a processor.
+  Keep this in lockstep with the Data Safety form in Play Console — mismatches
+  between the two are a common cause of listing suspension.
+-->
+
+</body>
+</html>
